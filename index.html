@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+  <title>IG ENGLISH</title>
+  
+    
+  <style>
+
+  </style>
+
+  <style>
+    .section:hover {
+      background-color: #ffcccc;
+      transition: 0.3s ease;
+
+      
+    
+    }  
+  </style>
+
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(bandeira.jpg);
+      background-size: 350px;
+    }
+    
+    header {
+      background-color: #002147;
+      padding: 20px;
+      text-align: center;
+      color: #ff0000;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    .content {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+    }
+    
+    p {
+      color: #555555;
+    }
+    
+    .section {
+      margin-bottom: 30px;
+    }
+    
+    .section p {
+      margin-bottom: 20px;
+    }
+    
+    .image img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    footer {
+      background-color: #002147;
+      padding: 10px;
+      text-align: center;
+      color: #ffffff;
+      
+    }
+  </style>
+
+  <!-- Estilo para o efeito de arco-íris -->
+  <style>
+    .rainbow-text {
+      background-image: linear-gradient(45deg, #ff0000, #ff9900, #33cc33, #3399ff, #9900ff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      display: inline;
+    }
+  </style>
+
+  <!-- Estilo para o efeito de paralaxe -->
+  <style>
+    body {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+
+  <!-- Estilo para o botão de alternância de tema -->
+  
+  <style>
+    body.dark-theme {
+      background-color: #333;
+      color: #fff;
+    }
+    
+    #theme-toggle {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span class="rainbow-text">I<span>G</span> <span>E</span>N<span>G</span>L<span>I</span>S<span>H</span></span></h1>
+  </header>
+
+  <head>
+    <title>Relógio Digital</title>
+</head>
+<body>
+
+<h1>Current Time</h1>
+<p id="relogio"></p>
+
+<script>
+    // Função para atualizar o relógio com a hora atual
+    function atualizarRelogio() {
+        const agora = new Date();
+        const horas = agora.getHours().toString().padStart(2, '0');
+        const minutos = agora.getMinutes().toString().padStart(2, '0');
+        const segundos = agora.getSeconds().toString().padStart(2, '0');
+        const horaAtual = `${horas}:${minutos}:${segundos}`;
+        document.getElementById("relogio").textContent = horaAtual;
+    }
+
+    // Atualize o relógio a cada segundo
+    setInterval(atualizarRelogio, 1000);
+
+    // Atualize o relógio inicialmente
+    atualizarRelogio();
+</script>
+
+</body>
+  
+  <div class="content">
+    <section class="section">
+      <h2>Bem-vindo ao IG ENGLISH!</h2>
+      <p>Aqui você pode encontrar recursos e informações para aprimorar seu inglês.</p>
+    </section>
+
+    <section class="section">
+      <h3><a href="https://www.todamateria.com.br/gramatica-ingles/" target="_blank">Gramática</a></h3>
+      <p>Explore alguns artigos sobre diferentes aspectos da gramática inglesa.</p>
+    </section>
+
+    <section class="section">
+      <h3><a href="frases.html" target="_blank">Vocabulário</a></h3>
+      <p>Amplie seu vocabulário com nossas listas de palavras temáticas.</p>
+    </section>
+
+    <section class="section">
+      <h3><a href="https://cursodeingles.online/" target="_blank">Exercícios</a></h3>
+      <p>Pratique suas habilidades de escrita e audição com alguns exercícios interativos.</p>
+    </section>
+
+    <section class="section">
+      <h3><a href="https://www.intercultural.com.br/paises-que-falam-ingles/" target="_blank">Cultura</a></h3>
+      <p>Descubra curiosidades sobre a cultura dos países de língua inglesa.</p>
+    </section>
+
+    <section class="section">
+      <h3><a href="https://www.estudarfora.org.br/como-melhorar-a-pronuncia-em-ingles-6-dicas-e-5-recursos-para-treinar-o-speaking/" target="_blank">Dicas</a></h3>
+      <p>Confira algumas dicas para melhorar sua pronúncia e fluência no inglês.</p>
+    </section>
+
+    <section class="section">
+      <h3><a href="https://www.openenglish.com.br/blog/filmes-para-aprender-ingles/" target="_blank">Recursos</a></h3>
+      <p>Encontre recomendações de livros, filmes e sites para aprimorar seu inglês.</p>
+    </section>
+
+    <section class="section">
+      <h3><a href="mailto:igormirandaleal.2007@gmail.com">Contato</a></h3>
+      <p>Entre em contato conosco para tirar dúvidas ou enviar sugestões.</p>
+      
+    </section>
+   </div>
+   <a href="https://github.com/Igor-Mirandaa-leal" target="_blank">
+    <button class="btn">
+    <svg width="40" height="40" fill="#0092E4" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="github">
+    <path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"></path>
+   </svg>
+   </button>
+   </a>
+   <div class="container">
+    <div class="loader"></div>
+    <div class="loader"></div>
+    <div class="loader"></div>
+    
+  </div>
+  
+  <div class="pyramid-loader">
+    <div class="wrapper">
+      <span class="side side1"></span>
+      <span class="side side2"></span>
+      <span class="side side3"></span>
+      <span class="side side4"></span>
+      <span class="shadow"></span>
+    </div>  
+  </div>
+    </div>
+  </div>
+  <div class="loader">
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__ball"></div>
+  </div>
+  <head>
+  <style>
+      #font-size-control {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 9999;
+
+        
+        
+      }
+    </style>
+    <script>
+      function increaseFontSize() {
+        var currentSize = parseFloat(document.body.style.fontSize) || 16;
+        document.body.style.fontSize = (currentSize + 2) + 'px';
+      }
+      
+      function decreaseFontSize() {
+        var currentSize = parseFloat(document.body.style.fontSize) || 16;
+        document.body.style.fontSize = (currentSize - 2) + 'px';
+      }
+    </script>
+  </head>
+  <body>
+    
+    <div id="font-size-control">
+      <button class="font-button" onclick="decreaseFontSize()">-</button>
+      <button class="font-button" onclick="increaseFontSize()">+</button>
+    </div>
+    
+    <style>
+      #font-size-control {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 9999;
+      }
+    
+      .font-button {
+        background-color: #000;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 6px 12px;
+        cursor: pointer;
+        margin-right: 5px; /* Ajuste a margem conforme necessário */
+        font-size: 48px; /* Ajuste o tamanho da fonte conforme necessário */
+      }
+    
+      .font-button:hover {
+        background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+      }
+    
+      .font-button:active {
+        transform: scale(0.95);
+      }
+    </style>
+  </body>
+  <div class="container">
+    <div class="loader"></div>
+    <div class="loader"></div>
+    <div class="loader"></div>
+  </div>
+
+  
+  <body>
+    <header>
+      <h1><span class="rainbow-text">I<span>G</span> <span>E</span>N<span>G</span>L<span>I</span>S<span>H</span></span></h1>
+      <nav>
+        
+      </nav>
+    </header>
+  </body>
+
+ 
+
+
+
+
+  <footer>
+    &copy; 2023 IG ENGLISH. 
+  </footer>
+  
+ 
+</body>
+</html>
